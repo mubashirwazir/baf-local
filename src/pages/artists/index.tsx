@@ -1,7 +1,11 @@
-import Header from "../Components/Header";
+import Layout from "../Components/Layout";
 
 const index = () => {
-  return <Header />;
+  return (
+    <Layout>
+      <h1>Arties</h1>
+    </Layout>
+  );
 };
 
 export default index;
