@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "next build && tailwindcss build styles/tailwind.css -o public/css/tailwind.css",
+    "start": "next start"
   },
   "dependencies": {
     "@types/node": "20.1.7",
