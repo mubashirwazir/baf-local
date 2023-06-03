@@ -3,7 +3,7 @@ import Layout from "./Components/Layout";
 const index = () => {
   return (
     <div>
-      <Layout>bilal</Layout>
+      <Layout>Index</Layout>
     </div>
   );
 };

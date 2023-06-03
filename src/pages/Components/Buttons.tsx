@@ -7,10 +7,25 @@ const Buttons: React.FC = () => {
   };
 
   return (
-    <div>
-      <button onClick={() => handleButtonClick("/theme")}>Theme</button>
-      <button onClick={() => handleButtonClick("/stories")}>Stories</button>
-      <button onClick={() => handleButtonClick("/artists")}>Artists</button>
+    <div className="flex space-x-4">
+      <button
+        className="bg-gray-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+        onClick={() => handleButtonClick("/theme")}
+      >
+        Theme
+      </button>
+      <button
+        className="bg-gray-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+        onClick={() => handleButtonClick("/stories")}
+      >
+        Stories
+      </button>
+      <button
+        className="bg-gray-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+        onClick={() => handleButtonClick("/artists")}
+      >
+        Artists
+      </button>
     </div>
   );
 };
