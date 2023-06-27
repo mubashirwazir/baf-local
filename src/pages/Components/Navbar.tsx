@@ -8,9 +8,11 @@ const Navbar = () => {
         <li>
           <Link href="/stories" passHref>
             <span
-              className={`text-white ${
-                router.pathname === "/stories" ? "text-blue-600 font-bold" : ""
-              }`}
+              className={` ${
+                router.pathname === "/stories"
+                  ? "text-black text-lg font-bold"
+                  : ""
+              }text-white font-bold`}
             >
               Stories{" "}
             </span>
@@ -20,9 +22,11 @@ const Navbar = () => {
         <li>
           <Link href="/artists" passHref>
             <span
-              className={`text-white ${
-                router.pathname === "/artists" ? "text-blue-600 font-bold" : ""
-              }`}
+              className={` ${
+                router.pathname === "/artists"
+                  ? "text-black text-lg  font-bold"
+                  : ""
+              } font-bold text-white`}
             >
               Artists{" "}
             </span>
@@ -31,9 +35,11 @@ const Navbar = () => {
         <li>
           <Link href="/gallery" passHref>
             <span
-              className={`text-white ${
-                router.pathname === "/gallery" ? "text-blue-600 font-bold" : ""
-              }`}
+              className={` ${
+                router.pathname === "/gallery"
+                  ? "text-black text-lg  font-bold"
+                  : ""
+              } font-bold text-white`}
             >
               Gallery{" "}
             </span>
@@ -43,9 +49,11 @@ const Navbar = () => {
         <li>
           <Link href="/history" passHref>
             <span
-              className={`text-white ${
-                router.pathname === "/history" ? "text-blue-600 font-bold" : ""
-              }`}
+              className={` ${
+                router.pathname === "/history"
+                  ? "text-black text-lg  font-bold"
+                  : ""
+              } font-bold text-white`}
             >
               History{""}
             </span>
@@ -55,9 +63,11 @@ const Navbar = () => {
         <li>
           <Link href="/theme" passHref>
             <span
-              className={`text-white ${
-                router.pathname === "/theme" ? "text-blue-600 font-bold" : ""
-              }`}
+              className={` ${
+                router.pathname === "/theme"
+                  ? "text-black text-lg  font-bold"
+                  : ""
+              } font-bold text-white`}
             >
               Themes{""}
             </span>

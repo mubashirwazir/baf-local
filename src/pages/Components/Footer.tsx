@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer>
+    <footer className="py-8 pl-8   text-right items-center  ">
       <p>This is the footer of the page.</p>
     </footer>
   );

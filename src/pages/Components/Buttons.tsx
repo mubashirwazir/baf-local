@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 const Buttons: React.FC = () => {
   const handleButtonClick = (path: string) => {
@@ -8,23 +7,14 @@ const Buttons: React.FC = () => {
 
   return (
     <div className="flex space-x-4">
-      <button
-        className="bg-gray-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
-        onClick={() => handleButtonClick("/theme")}
-      >
-        Theme
+      <button className="btn-62" onClick={() => handleButtonClick("/theme")}>
+        <span>Theme</span>
       </button>
-      <button
-        className="bg-gray-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
-        onClick={() => handleButtonClick("/stories")}
-      >
-        Stories
+      <button className="btn-62" onClick={() => handleButtonClick("/stories")}>
+        <span>Stories</span>
       </button>
-      <button
-        className="bg-gray-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
-        onClick={() => handleButtonClick("/artists")}
-      >
-        Artists
+      <button className="btn-62" onClick={() => handleButtonClick("/artists")}>
+        <span>Artists</span>
       </button>
     </div>
   );
